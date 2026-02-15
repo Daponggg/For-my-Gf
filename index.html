@@ -1,0 +1,199 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine For My Beloved Girl! </title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Press Start 2P', cursive;
+            background: #5a0f1c;
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+            image-rendering: pixelated;
+        }/* ===== LOADING SCREEN ===== */
+    #loading-screen {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #3d0913;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .loading-text {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .blink {
+        animation: blink 1s infinite;
+    }
+
+    @keyframes blink {
+        50% { opacity: 0; }
+    }
+
+    /* ===== MAIN CONTENT (Hidden First) ===== */
+    #main-content {
+        display: none;
+    }
+
+    /* Pixel Animated Background */
+    .pixel-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #5a0f1c;
+    }
+
+    .heart {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #8b1c2d;
+        transform: rotate(45deg);
+        animation: float 10s linear infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #8b1c2d;
+        border-radius: 50%;
+    }
+
+    .heart::before {
+        top: -10px;
+        left: 0;
+    }
+
+    .heart::after {
+        left: -10px;
+        top: 0;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(100vh) rotate(45deg); opacity: 0; }
+        10% { opacity: 1; }
+        100% { transform: translateY(-10vh) rotate(45deg); opacity: 0; }
+    }
+
+    header {
+        padding: 30px 10px;
+        background: #7a1426;
+        border-bottom: 6px solid #a61c3c;
+    }
+
+    h1 { font-size: 18px; }
+    section { padding: 40px 20px; }
+
+    .card {
+        background: #7a1426;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 600px;
+        border: 6px solid #a61c3c;
+        box-shadow: 8px 8px 0 #3d0913;
+    }
+
+    .gallery img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 10px;
+        border: 4px solid white;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 15px;
+        background: #a61c3c;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    button:hover { background: #c21e48; }
+
+    footer {
+        padding: 20px;
+        background: #7a1426;
+        margin-top: 40px;
+    }
+
+    .hidden { display: none; }
+</style>
+
+</head>
+<body><!-- ===== LOADING SCREEN ===== --><div id="loading-screen">
+    <div class="loading-text">I Love My Girlfriend sooooo much</div>
+    <div class="loading-text blink">Press Start ❤</div>
+    <button onclick="startGame()">START GAME</button>
+</div><!-- ===== MAIN CONTENT ===== --><div id="main-content"><div class="pixel-bg" id="pixel-bg"></div><audio id="bg-music" loop>
+    <source src="mrloverman.mp3" type="audio/mpeg">
+</audio><header>
+    <h1>Happy Valentine My Love ❤️</h1>
+</header><section>
+    <div class="card">
+        <p>HAI SAYANGGGG </p>
+        <p><b>Terimakasih</b>  Terima kasih sudah hadir dalam hidupku, Terima kasih sudah menerima aku apa ada nya, Terimakasih sudah mau menjadi pacar ku, terimakasih sudah ingin bersama ku, terimakasih sudah menerima segala kekurangan ku, terimakasih sudah ingin bertahan dengan ku, terimakasih sudah menghabiskan waktu km untuk aku, terimakasih sudah memberikan aku segala experience yang belum pernah aku rasakan, terimakasih karena selalu sabar menghadapi aku, terimakasih sudah selalu menenangkan aku memuji ku menyemangati aku, terimakasih sudah menjadi pacar aku. beribu ribu terimakasih yang aku ucapkan dan beribu ribu maaf pula aku ucapkan maaf jika belum cukup, maaf jika sering ninggalin kamu, maaf sudah sering membuat kamu sedih maaf sudah sering membuat kamu nangiss, maaf sudah membuat kmu muak, maaf sudah membuat kamu risih, maaf jika aku melakukan hal yang tak kamu suka, maaf jika aku terlalu childish, maaf jika aku masi kurang, maaf jika aku tidak sesuai ekspektasi kamu. I'm so happy kita ketemu, I'm so happy kita sudah bersama, tak terasa kita melewati banyak hal, dari nangis senang sedih happy marah muak maaf dan semuanya terimakasih sudah mau melewati ini bareng bareng terimakasih sudah menjadi pacar aku selama 3 bulan ini i hope kita bisa lebih lamaaaaaaaaa kita harus sampai nikah, sampai ada bumi sampai ada lahan pertanian kita sampai ada rumah gede dan gelar yang banyak semoga harapan kita semua terkabulkan I hope kita bisa berjuang bersama sama sampai titik dimana kita slow living tanpa memikirkan besok makan apa, bayar uang sekolah bumi dll we will always in each other side and of course I will always with u, I promise. I love u more than anything my world.</p>
+    </div>
+</section><section>
+    <div class="card gallery">
+        <h2>Our Memories Together</h2>
+        <img src="foto1.jpg" alt="Foto 1">
+        <img src="foto2.jpg" alt="Foto 2">
+        <img src="foto3.jpg" alt="Foto 3">
+    </div>
+</section><section>
+    <div class="card">
+        <h2>Our Memories</h2>
+        <ul style="text-align:left; font-size:10px; line-height:1.8;">
+            <li>• our first meet</li>
+            <li>• my first flower for u</li>
+            <li>• when u kiss me</li>
+        </ul>
+    </div>
+</section><section>
+    <div class="card">
+        <h2>Special Message 💌</h2>
+        <button onclick="showMessage()">Klik untuk pesan rahasia</button>
+        <p id="secret" class="hidden">Aku sayang kamu hari ini, besok, dan seterusnya aku akan tetap selalu sayang kamu, aku akan tetap selalu ada untuk kamu, dan I will always be here for u.</p>
+    </div>
+</section><footer>
+    <p>made with love for my loved one by Daffa</p>
+</footer></div><script>
+    function startGame() {
+        document.getElementById('loading-screen').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+        document.getElementById('bg-music').play();
+    }
+
+    function showMessage() {
+        document.getElementById("secret").classList.remove("hidden");
+    }
+
+    const bg = document.getElementById('pixel-bg');
+    for (let i = 0; i < 25; i++) {
+        const heart = document.createElement('div');
+        heart.classList.add('heart');
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.animationDuration = (5 + Math.random() * 5) + 's';
+        heart.style.animationDelay = Math.random() * 5 + 's';
+        bg.appendChild(heart);
+    }
+</script></body>
+</html>
